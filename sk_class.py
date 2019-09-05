@@ -1,4 +1,4 @@
-# libraries
+# install & import libraries
 pip install pandas
 pip install scikit-learn
 import pandas as pd
