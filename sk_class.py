@@ -33,7 +33,7 @@ X_train = vectorizer.transform(sentences_train)
 X_test  = vectorizer.transform(sentences_test)
 print(X_train.shape) # output is like (750, 1714)
 
-# test
+# train
 classifier = LogisticRegression()
 classifier.fit(X_train, y_train)
 score = classifier.score(X_test, y_test)
